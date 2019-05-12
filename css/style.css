@@ -1,374 +1,351 @@
-nav ul {
-  z-index: 1;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: white;
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+header{
+  display:flex;
   position: fixed;
-  width: 100%;
-  font-size: 30px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  top:0;
+  left:0;
+  width: 100vw;
+  background-color: rgba(39, 40, 51, .8);
 }
 
-nav li {
-  float: left;
+#vv-logo{
+  height:100px;
+  padding: 10px 0px 10px 50px;
+}
+
+nav{
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  background: ;
+}
+
+nav ul {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  height: 100%;
+  width: 100%;
+  font-size: 30px;   
+  background:;
+  padding: 0px 10px;
 }
 
 nav li a {
-  display: block;
-  color: black;
+  color: #fafafa;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+  padding: 15px;
 }
 
 nav li a:hover {
-  color: white;
-  background-color: #111;
-  border-radius: 25px;
+  color: teal;
+}
+
+/*--------------------------WELCOME BACKGROUND -------------*/
+main{
+   /*background-image: url("https://previews.dropbox.com/p/thumb/AAbESyMiCoh1-CM8nA2_MrnDM_Hu7CkFgrgn-m1dTwuG3dXxNGG4hD_MQJkH8SyhJe3qqLIzOViWHDZCa6OnjsLafoswquU41n8V90fMuVHp2lMcQja50hLRbK_9GXiu645alHkl974x97-ueQNKZ-GAYNJX41xCdPeGwSRHJyNQaktBqMP77YjpwXwFQsZQgbFfCoafT8wpbiufoebtkBjl5cGK9-0YUBJpDFItyihC7XushdXC1y3gN0U2inpVlEoMZv4QRot7gVf93_6DCwsmfIUphgWKfewWFyX99x6wazD1MOGawK3UTNw6sooArm0kJI7g7qreM47vaNkfxKGG/p.jpeg?fv_content=true&size_mode=5");*/
+  background-image: url("/images/hd_pic_escalator.jpg");
+  background-attachment: fixed;
+  min-height: 500px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
 }
 
 .welcome-bg {
   height: 100vh;
   padding-top: 0vh;
-  background-color: pink;
+  background-color: #fafafa;
   position: relative;
   text-align: center;
   color: black;
+  z-index: 0;
+  
+  /*background-image: url("https://previews.dropbox.com/p/thumb/AAavm4kZ1zCReAQTrsZn7rWou5reLxNvpkniaRHK_HuoTKtMayspa3IRGOvvzlPkB4SVRrN-J-bxLVkSXASzqzcIHzWNal7XjCLbuTci7JXACCT2ZC8AlHgjlu7ojwXdTNWdzIMaJ8u-xaT6KqvI6UwoduBUwjYmaZcwrbhvktiwz5uPQyIio2amsfTAAOFX8SYHWcg4jOLXRhkligT1G81-mLXqXp4LXHCvpWf7TjApnu5kV1BlLyw_ByDI3hsrA0F8eT9GNt6iNGeXwbGUhAPE1ustKjxeplEJ6WnqZ4Q02qbnp6A_y_5MhHsphAU4rKz2RhrWp6xkUc-ImxIcD4vm/p.jpeg?fv_content=true&size_mode=5");*/
+  background-image: url("/images/hd_pic_night_man.jpg");
+  background-attachment: fixed;
+  min-height: 500px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .wallpaper{
   object-fit: cover;
   width: 100vw;
   height: 100vh;
+
 }
 
 .welcome-text {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
 }
 
 .welcome-text h1 {
   font-size: 5em;
   font-family: "Titillium Web", sans-serif;
+  color: #fafafa;
 }
 
 .welcome-text h2 {
+  color: #fafafa;
   text-align: center;
   font-size: 2em;
 }
+/*------------------------ SECTION: MY WORK --------------------------*/
 
-.my-work {  
-  background: white;
-  padding: 5vh 10vh 1vh 10vh;
-  min-height: 100vh;
-  display: grid;
-  font-size: 1.5em;
-  grid-gap: 20px; 
-  /*grid-template-columns: auto auto auto auto auto auto;*/
-  grid-template-areas:
-    /*
-    "work_head"
-    "bpe_text_area bpe_visuals_area"
-    "dbz_visuals_area dbz_text_area"
-    "cave_visuals_area cave_text_area"
-    "nasa_visuals_area nasa_text_area"
-    "hack_visuals_area hack_text_area";*/
-    "work_head"
-    "bpe_area"
-    "dbz_area"
-    "cave_area"
-    "nasa_area"
-    "hack_area";
+.my-work {    
+  background: #fafafa;
+  padding-top: 5vh;
+  font-size: 1.25em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background:;
+  
+    /*background-image: url("https://previews.dropbox.com/p/thumb/AAbESyMiCoh1-CM8nA2_MrnDM_Hu7CkFgrgn-m1dTwuG3dXxNGG4hD_MQJkH8SyhJe3qqLIzOViWHDZCa6OnjsLafoswquU41n8V90fMuVHp2lMcQja50hLRbK_9GXiu645alHkl974x97-ueQNKZ-GAYNJX41xCdPeGwSRHJyNQaktBqMP77YjpwXwFQsZQgbFfCoafT8wpbiufoebtkBjl5cGK9-0YUBJpDFItyihC7XushdXC1y3gN0U2inpVlEoMZv4QRot7gVf93_6DCwsmfIUphgWKfewWFyX99x6wazD1MOGawK3UTNw6sooArm0kJI7g7qreM47vaNkfxKGG/p.jpeg?fv_content=true&size_mode=5");*/
+  background-image: url("/images/hd_pic_escalator.jpg");
+  background-attachment: fixed;
+  min-height: 500px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
-.work-header {
-  text-align:center;
-  justify-self:center;
+.work-header { 
+  max-width:100%;
+  padding-top: 5vh;  
+  color: #fafafa;
+  background: ;
+  display: flex;
+  justify-content: center;
+  align-content:center;
+  font-size: 3em;
+}
+
+.individual-project{
+  background:rgb(250,250,250,.9);
+  color: black;
   max-width: 1200px;
-  width:100%;
-  padding: 1vh 1vh 1vh 1vh;
-  border-radius: 25px;
-  color: white;
-  grid-area: work_head;
-  background: black;
+  padding: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: space-around;
+  margin-bottom: 50px;
 }
 
-.work-bpe {
-  justify-self:center;
-  max-width: 1200px;
-  padding: 1vh 1vh 1vh 1vh;
-  background:white;
-  /*grid-area: bpe_area;*/
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-areas: "bpe_visuals_area bpe_text_area";
-}
-.visuals-bpe {
-  display: grid;
-  grid-template-rows: auto auto auto;
-  grid-template-areas: "bpe_visuals_area";
-}
-
-.desc-bpe{
-  display: grid;
-  grid-template-areas: "bpe_text_area";
-  align-self: start;
-}
-
-.work-dbz {
-  justify-self:center;
-  max-width: 1200px;
-  padding: 1vh 1vh 1vh 1vh;
-  border-radius: 25px;
-  color: white;
-  background: black;
-  grid-area: dbz_area;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  grid-template-area: "dbz_text_area dbz_visuals_area";
-}
-.visuals-dbz {
-  display: grid;
-  grid-template-rows: auto auto;
-  grid-template-areas: "dbz_visuals_area"; 
-}
-
-.desc-dbz{
-  display: grid;
-  grid-template-areas: "dbz_text_area";
-  align-self: start;
-}
-
-.work-cave {
-  justify-self:center;
-  max-width: 1200px;
-  padding: 1vh 1vh 1vh 1vh;
-  background: white;
-  grid-area: cave_area;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-areas: "cave_visuals_area cave_text_area";
-}
-.visuals-cave {
-  display: grid;
-  grid-template-rows: auto auto auto;
-  grid-template-areas: "cave_visuals_area";
-}
-
-.desc-cave{
-  display: grid;
-  grid-template-areas: "cave_text_area";
-  align-self: start;
-}
-
-.work-nasa {
-  justify-self:center;
-  max-width: 1200px;
-  padding: 1vh 1vh 1vh 1vh;
-  border-radius: 25px;
-  color: white;
-  background: black;
-  grid-area: nasa_area;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  grid-template-areas: "nasa_text_area nasa_visuals_area";
-}
-.visuals-nasa {
-  display: grid;
-  grid-template-rows: auto auto auto ;
-  grid-template-areas: "nasa_visuals_area";
-}
-
-.desc-nasa{
-  display: grid;
-  grid-template-areas: "nasa_text_area";
-  align-self: start;
-}
-
-.desc-vis-nasa{
-  display :grid;
-  grid-template-rows: auto auto;
-  grid-template-areas: "nasa_text_area";
-  align-self:start;
-}
-
-.work-hack {
-  justify-self:center;
-  max-width: 1200px;
-  padding: 1vh 1vh 1vh 1vh;
-  background: white;
-  grid-area: hack_area;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-areas: "hack_visuals_area hack_text_area";
-}
-.visuals-hack {
-  display: grid;
-  grid-gap: 1vh;
-  grid-template-rows: auto auto auto;
-  grid-template-areas: "hack_visuals_area";
-}
-
-.desc-hack{
-  display: grid;
-  grid-template-areas: "hack_text_area";
-  align-self: start;
-}
-
-.project-vid {
-  border-radius: 25px;
-  overflow: hidden;
-}
-
-.project-pic {
-  border-radius: 25px;
-  overflow: hidden;
+.project-pic, .project-vid{
   width: 560px;
+  height: 315px;
+  margin: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
 }
 
-.bullets {
-  padding: 0vh 2vh 0vh 2vh;
-  text-align: left;
+.project-desc{
+  display:flex;
+  flex-direction: column;
+  background-color:;
+  margin-left: 30px;
+  padding-right: 20px;
+  max-width: 100%;
+  flex-wrap: wrap;
 }
 
-h4 {
+.bullets a{
+  color: black;
+}
+
+.project-desc h4 {
   font-size: 1.5em;
   font-weight: bold;
   color: black;
-  text-align: center;
+  margin-bottom: 10px;
 }
 
+.project-graphic-sect{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+/*------------------- SECTION: CONTACT ME ----------------*/
 .contact-me {
-  height: 100vh;
-  padding-top: 0vh;
-  position: relative;
+  min-height: 100vh; 
+  padding-top: 70px;
   text-align: center;
-  background-color: pink;
 }
-.goodbye-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.goodbye-text { 
+  color: #fafafa
 }
 
+.contact-me h6{
+  font-size: 50px;
+  margin-bottom: 50px;
+}
 .contact-me p {
-  font-size: 40px;
-  color: black;
+  font-size: 20px;  
 }
 
 .contact-me p a {
-  color: black;
+  color: #fafafa;
+}
+/*-----------------------------CONTACT FORM -----------------------*/
+
+.survey-content{
+  background-color: rgb(250, 250, 250, .9);
+  margin: 0 auto;
+  width: 75%;
+  max-width: 1200px;
+  padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  min-width: 320px;
 }
 
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.rightColumnLayout {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.age-group,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+
+#submit {
+  background-color: darkorange;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+}
+
+.dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.radio, .checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+/*--------------------------- FOOTER SECTION ------------------*/
 footer {
   text-align: center;
   position: absolute;
   z-index: 2;
   font-size: 1.5em;
   padding: 20px;
-  background: black;
-  color: white;
+  background: #272833;
+  color: #fafafa;
   line-height: 10px;
   width: 100%;
+  left: 0px;
 }
 
+/*---------------------------- MEDIA QUERIES -------------------------------*/
 
-/*
-@media only screen and (max-width: 1200px){
-    .contact-me p {font-size: 20px;}
-  footer{font-size: .6em;}
-  nav ul{font-size: 1.25em;}
-  .welcome-text h1{font-size: 1.8em;}
-  .welcome-text h2{font-size: 1.1em}  
-}
-*/
 @media only screen and (max-width: 1200px) {
   
    .contact-me p {font-size: 20px;}
-  footer{font-size: .6em;}
-  nav ul{font-size: 1.25em;}
+  footer{font-size: 1.2em;}
   .welcome-text h1{font-size: 1.8em;}
   .welcome-text h2{font-size: 1.1em} 
   
-  .work-header{width: 560px}
+  .work-header{width: 560px;}
   
-  .my-work {
-  /*grid-template-areas: 
-    "bpe_text_area" 
-    "bpe_visuals_area"
-    
-    "dbz_text_area" 
-    "dbz_visuals_area"
-    
-    "cave_text_area" 
-    "cave_visuals_area"
-    
-    "nasa_text_area" 
-    "nasa_visuals_area"
-    
-    "hack_text_area" 
-    "hack_visuals_area";*/
-    
+  .my-work {  
   padding: 0vh 0vh 0vh 0vh;
-  grid-gap: 20px;}
-  
-   .work-bpe {
-  width: 560px;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto;
-  grid-template-areas: "bpe_text_area" "bpe_visuals_area" ;}
-  
-   .work-dbz {
-  width: 560px;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto;
-  grid-template-areas: "dbz_text_area" "dbz_visuals_area" ;}
-  
-    .work-cave {
-  width: 560px;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto;
-  grid-template-areas: "cave_text_area" "cave_visuals_area" ;}
-  
-    .work-nasa {
-  width: 560px;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto;
-  grid-template-areas: "nasa_text_area" "nasa_visuals_area" ;}
-  
-    .work-hack {
-  width: 560px;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto;
-  grid-template-areas: "hack_text_area" "hack_visuals_area" ;}
-    
+  }   
 }
 
 
 @media only screen and (max-width: 560px) {  
+  header{
+    flex-direction:column; 
+    max-width: 100%;
+  }
+   nav ul{
+     font-size: 1.5em;
+     justify-content: center;
+     margin-bottom:2px;
+     margin-top: 0px;
+  }
+  #vv-logo{height:60px; padding-left:0;padding-bottom:1px}
+  
   .contact-me p {font-size: 17px;}
-  footer{font-size: .3em;}
-  nav ul{font-size: 1em;}
+  footer{font-size: .9em;} 
   .welcome-text h1{font-size: 1.2em;}
   .welcome-text h2{font-size: .8em;}  
   
-  .project-pic {width: 350px;}  
-  .project-vid iframe{width: 350px; height:197px;}
+  .project-pic {margin: 0px 0px 3px 0px; padding: 0; width: 350px;height: 200px;}  
+  .project-vid {margin: 0px 0px 3px 0px; padding: 0; width: 350px; height:197px;}
   
-  .work-header{font-size: 25px; width: 350px} 
-  .work-bpe {width: 350px;font-size:15px} 
-  .work-dbz {width: 350px;font-size:15px;}  
-  .work-cave {width: 350px;font-size:15px}
-  .work-nasa {width: 350px;font-size:15px}  
-  .work-hack {width: 350px;font-size:15px}
+  .project-desc{padding-left:0; margin-left:0;}
+
 }
 
 @media only screen and (max-width: 370px) {
@@ -379,14 +356,35 @@ footer {
   .welcome-text h1{font-size: 1.2em;}
   .welcome-text h2{font-size: .8em;}  
   
-  .project-pic {width: 300px;} 
-  .project-vid iframe{width:300px; height: 169px;}
-  
-  .work-header{font-size: 25px; width: 300px} 
-  .work-bpe {width: 300px;font-size:15px} 
-  .work-dbz {width: 300px;font-size:15px;}  
-  .work-cave {width: 300px;font-size:15px}
-  .work-nasa {width: 300px;font-size:15px}  
-  .work-hack {width: 300px;font-size:15px}
+  .project-pic {margin: 0px 0px 3px 0px; width: 300px; height: 170px;} 
+  .project-vid {margin: 0px 0px 3px 0px; padding: 0; width:300px; height: 169px;}
+ 
 
+}
+
+/*----------------- CONTACT FORM MEDIA QUERIES -------------*/
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightColumnLayout {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
 }

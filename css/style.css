@@ -312,8 +312,7 @@ footer {
   
    .contact-me p {font-size: 20px;}
   footer{font-size: 1.2em;}
-  .welcome-text h1{font-size: 1.8em;}
-  .welcome-text h2{font-size: 1.1em} 
+  
   
   .work-header{width: 560px;}
   
@@ -338,8 +337,8 @@ footer {
   
   .contact-me p {font-size: 17px;}
   footer{font-size: .9em;} 
-  .welcome-text h1{font-size: 1.2em;}
-  .welcome-text h2{font-size: .8em;}  
+  .welcome-text h1{font-size: 2.5em;}
+  .welcome-text h2{font-size: 1.5em} 
   
   .project-pic {margin: 0px 0px 3px 0px; padding: 0; width: 350px;height: 200px;}  
   .project-vid {margin: 0px 0px 3px 0px; padding: 0; width: 350px; height:197px;}
@@ -353,8 +352,6 @@ footer {
   .contact-me p {font-size: 17px;}
   footer{font-size: .3em;}
   nav ul{font-size: 1em;}
-  .welcome-text h1{font-size: 1.2em;}
-  .welcome-text h2{font-size: .8em;}  
   
   .project-pic {margin: 0px 0px 3px 0px; width: 300px; height: 170px;} 
   .project-vid {margin: 0px 0px 3px 0px; padding: 0; width:300px; height: 169px;}

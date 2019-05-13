@@ -325,28 +325,22 @@ footer {
 
 /*---------------------------- MEDIA QUERIES -------------------------------*/
 
-@media only screen and (max-width: 1200px) {
-  .contact-me p {
-    font-size: 20px;
-  }
-  footer {
-    font-size: 1.2em;
-  }
-
-  .work-header {
-    width: 560px;
-  }
-
-  .my-work {
-    padding: 0;
-  }
+@media (max-width: 1200px) {
+  .contact-me p {font-size: 20px;}
+  footer {font-size: 1.2em;}
+  .my-work {padding: 0;}
 }
 
-@media only screen and (max-width: 560px) {
-  header {
-    flex-direction: column;
-    max-width: 100%;
-  }
+@media (max-width: 833px) {
+  .input-field {width: 80%;}
+  select {width: 90%;}
+}
+
+@media (max-width: 560px) {
+  nav li a:hover {
+  color: red;
+}
+  /*header {flex-direction: column; max-width: 100%;}*/
   nav ul {
     font-size: 1.5em;
     justify-content: center;
@@ -359,23 +353,14 @@ footer {
     padding-bottom: 1px;
   }
 
-  .contact-me p {
-    font-size: 17px;
-  }
-  footer {
-    font-size: 0.9em;
-  }
-  .welcome-text h1 {
-    font-size: 2.5em;
-  }
-  .welcome-text h2 {
-    font-size: 1.5em;
-  }
+  .contact-me p {font-size: 17px;}
+  footer {font-size: 0.9em;}
+  .welcome-text h1 {font-size: 2.5em;}
+  .welcome-text h2 {font-size: 1.5em;}
 
   .project-pic {
     margin: 0px 0px 1px 0px;
-    padding: 0;
-    
+    padding: 0;  
     position: absolute;
     top: 0;
     left: 0;
@@ -405,43 +390,20 @@ footer {
     padding-left: 0;
     margin-left: 0;
   }
+  
+  .labels {width: 100%; text-align: left;}
+  .rightColumnLayout {width: 80%; float: left;}
+  .input-field {width: 100%;}
+  select {width: 100%;}
 }
-/*
-@media only screen and (max-width: 370px) {
-  
-  .contact-me p {font-size: 17px;}
-  footer{font-size: .3em;}
-  nav ul{font-size: 1em;}
-  
-  .project-pic {margin: 0px 0px 3px 0px; width: 300px; height: 170px;} 
-  .project-vid {margin: 0px 0px 3px 0px; padding: 0; width:300px; height: 169px;}
- 
 
+
+
+/*
+@media screen and (max-width: 520px) {
+  .labels {width: 100%; text-align: left;}
+  .rightColumnLayout {width: 80%; float: left;}
+  .input-field {width: 100%;}
+  select {width: 100%;}
 }
 */
-/*----------------- CONTACT FORM MEDIA QUERIES -------------*/
-@media screen and (max-width: 833px) {
-  .input-field {
-    width: 80%;
-  }
-  select {
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 520px) {
-  .labels {
-    width: 100%;
-    text-align: left;
-  }
-  .rightColumnLayout {
-    width: 80%;
-    float: left;
-  }
-  .input-field {
-    width: 100%;
-  }
-  select {
-    width: 100%;
-  }
-}

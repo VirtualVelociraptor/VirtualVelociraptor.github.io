@@ -130,19 +130,26 @@ body {
 }
 
 #cfg-pic-wrapper{
-  width: 30%;
+  width: 50%;
+  max-width: 500px;
+  padding: 5px 5px 60px 5px;
+  margin: 20px;
+  background: #fafafa;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
+
 #cfg-pic{
-    width: 100%;    
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    width: 100%;
+    max-height: 500px
   }
 
 #about-me-desc{
-  width: 40%;
-  height:60%;
+  width: 50%;
+
   display: flex;
   flex-flow: column nowrap;
   color: #fafafa;
+  padding: 20px;
 }
 
 #about-me-desc h2{

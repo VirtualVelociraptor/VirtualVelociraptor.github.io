@@ -440,18 +440,22 @@ footer {
     /*background-image :url("https://previews.dropbox.com/p/thumb/AAbkn2O-EiTWJUFcxJVPC7U2DTmzov_RnUrZzgqRw1VaaNw_5CL5GTGoDzkcWbC8hvIdwh1b8g932rE9_cgw1uwFImUIM7P4qoAi08FS62nYKqZ0e3z71Wt_fLqfXd2BCZWod8XompuUP2W5wJub-6ou7kmjuIgn8mdxxtKpCmb5sYTWRGURyjp9MZnuMvbJv7iToe-5bwCrn_G4DhQp7Z10GNkpA1vu7IbUiDNevetkN_DEM_WGHmNj0SFkKQkXgBK5iUOnV6M3owa5L6VCVZcE_OzaLQJwfDPokvHIShXMHoSDA3D2jL_uewS338cgonu14rpHqP6rPjMhrXir2nVP/p.jpeg?fv_content=true&size_mode=5");*/
    background-image: url("/images/about-me-wallpaper-SMALL.jpg"); 
     background-attachment: scroll;
-    min-height: 500px;
+    background-size: 100% 100%; 
+    height: 100%;
+    
   }
   
   #main-section {
   /*background-image: url("https://previews.dropbox.com/p/thumb/AAal-qf-ba56d-gAyzPkWRRxuhrtQ8zjq4nSaBeqtnxQz-gdqVwjuTRpoc6yLZvS6AAirOsEIYOHYYIlmMaM7je3gTW3QZ_XaC9zBU_ugTOJDyVPn_uIT_nCLrPyzW6B55RICGf6EFgRjC0xwtfvMqYwoBEOOlutWX4EV57a4-0UPTeNMca7XGa7M7oM-AQdzdn32kIkfoNkPb0_2VjlGVM6Vu41LYQZG1uOmx-iYX_eprr9ARwU2AYnvr857tDeHQLI9-siX2Bjk7olDR_5rliqORL8Y0IXsM2AOezItP-1Ykb3vovlX8JuE8heTNWr_VIRroH_m8TvIP_jknilr0Yd/p.jpeg?fv_content=true&size_mode=5"); */
   background-image: url("/images/hd_pic_escalator_SMALL.jpg");
   background-attachment: ;
-  min-height: 500px;
+  background-size: 100% 100%;
+  height: 100%;
   }
   
   #polaroid-container{
     margin-top: 50px;
+    background: ;
   }
   #about-me-desc{
     width: 95%;
@@ -533,6 +537,11 @@ footer {
     padding-left: 0;
     margin-left: 0;
   }
+  
+  .contact-me h6 {
+  font-size: 30px;
+  margin-top: 10px;
+}
   
   .labels {width: 100%; text-align: left;}
   .rightColumnLayout {width: 80%; float: left;}

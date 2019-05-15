@@ -150,7 +150,7 @@ body {
   align-items: center;
   background: #fafafa;
   height: 50px;
-  font-size: 1.2vh;
+  font-size: 15px;;
   font-family: 'Rock Salt', cursive;
 }
 
@@ -173,7 +173,7 @@ body {
 }
 
 #about-me-desc h2{
-  font-size: 3vh;
+  font-size: 40px;
   margin-bottom: 0px;
   padding-bottom: 0px;
   background: ;
@@ -409,10 +409,7 @@ footer {
   footer {font-size: 1.2em;}
   .my-work {padding: 0;}
   
-   #about-me{
-    flex-flow: column-reverse nowrap;
-     height: 100%;
-  }
+   #about-me{flex-flow: column-reverse nowrap;height: 100%;}
     
    #about-me-desc{
     width: 95%;
@@ -420,18 +417,12 @@ footer {
     padding:10px;   
   }
   
-   #about-me-desc p{
-    font-size: 2vw;
-  }
+   #about-me-desc p{font-size: 17px;}
+  #about-me-desc h2{font-size: 30px;}
   
-   #polaroid-container{
-    margin-top: 30px;
-  }
-  
-  #polaroid-container{
-    margin-top: 130px;
-    background: ;
-  }
+  #polaroid-container{margin-top: 30px;}  
+  #polaroid-container{margin-top: 130px;}
+  #polaroid-text{font-size:10px;}
   
   
 }
@@ -441,7 +432,7 @@ footer {
   header {max-width: 100vw; }
   
   nav ul {
-    font-size: 7vw;
+    font-size: 30px;
     justify-content: space-around;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -451,9 +442,7 @@ footer {
     padding: 0px 0px;
   }
   
-  nav ul li a {
-    padding: 5px;
-  }
+  nav ul li a {padding: 5px;}
   
   #vv-logo {
     height: 50px;
@@ -461,6 +450,16 @@ footer {
     padding-bottom: 3px;
     padding-top: 3px;
   }
+  
+  .contact-me h6 {font-size: 30px; margin-top: 20px;}
+  .contact-me p {font-size: 17px;}
+  footer {font-size: 0.9em;}
+  .welcome-text h1 {font-size: 2.5em;}
+  .welcome-text h2 {font-size: 1.5em;}
+  
+  
+  
+
   
   .input-field {width: 80%;}
   select {width: 90%;}
@@ -528,7 +527,7 @@ footer {
   }
   
   #about-me-desc p{
-    font-size: 3.7vw;
+    font-size: 17px;
   }
   
   header {max-width: 100vw; }

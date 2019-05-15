@@ -451,6 +451,11 @@ footer {
   /*background-attachment: fixed;
   background-size: 100% 100%;
   height: 100%;*/
+    min-height: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
   }
   
   #polaroid-container{
@@ -498,7 +503,8 @@ footer {
   
   .work-header{
     height: 90px; 
-    font-size: 2em;   
+    font-size: 2em;  
+    padding-top: 20px;
   }
 
   .individual-project{

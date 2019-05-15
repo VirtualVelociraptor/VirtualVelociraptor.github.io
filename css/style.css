@@ -402,19 +402,40 @@ footer {
   right: 0px;
 }
 
-/*---------------------------- MEDIA QUERIES -------------------------------*/
+/*---------------------------- MEDIA QUERIES: TABLETS -------------------------------*/
 
 @media (max-width: 1200px) {
   .contact-me p {font-size: 20px;}
   footer {font-size: 1.2em;}
   .my-work {padding: 0;}
+  
+   #about-me{
+    flex-flow: column-reverse nowrap;
+  }
+    
+   #about-me-desc{
+    width: 95%;
+    margin: 0px;
+    padding:10px;   
+  }
+  
+   #about-me-desc p{
+    font-size: 2vw;
+  }
+  
+   #polaroid-container{
+    margin-top: 30px;
+  }
+  
+  
 }
 
+/*---------------------------- MEDIA QUERIES: SIDEWAYS MOBILE PHONES -------------------------------*/
 @media (max-width: 833px) {
   .input-field {width: 80%;}
   select {width: 90%;}
   
-   #about-me{
+   /*#about-me{
     flex-flow: column-reverse nowrap;
   }
   
@@ -430,7 +451,7 @@ footer {
   
    #polaroid-container{
     margin-top: 30px;
-  }
+  }*/
 }
 /*---------------------------- MEDIA QUERIES: MOBILE PHONES -------------------------------*/
 @media (max-width: 560px) {

@@ -436,6 +436,12 @@ footer {
     background-attachement: scroll;
   }
   
+  #main-section {
+  /*background-image: url("https://previews.dropbox.com/p/thumb/AAbESyMiCoh1-CM8nA2_MrnDM_Hu7CkFgrgn-        m1dTwuG3dXxNGG4hD_MQJkH8SyhJe3qqLIzOViWHDZCa6OnjsLafoswquU41n8V90fMuVHp2lMcQja50hLRbK_9GXiu645alHkl974x97-ueQNKZ-GAYNJX41xCdPeGwSRHJyNQaktBqMP77YjpwXwFQsZQgbFfCoafT8wpbiufoebtkBjl5cGK9-0YUBJpDFItyihC7XushdXC1y3gN0U2inpVlEoMZv4QRot7gVf93_6DCwsmfIUphgWKfewWFyX99x6wazD1MOGawK3UTNw6sooArm0kJI7g7qreM47vaNkfxKGG/p.jpeg?fv_content=true&size_mode=5"); */
+  background-image: url("/images/hd_pic_escalator_SMALL.jpg");
+  background-attachement: scroll;
+  }
+  
   #polaroid-container{
     margin-top: 50px;
   }
@@ -449,10 +455,6 @@ footer {
     font-size: 3.5vw;
   }
   
-  #main-section{
-    background-image: none;
-    background-color: black;
-  }
 
   .work-header{
     background: black;

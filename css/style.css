@@ -55,7 +55,7 @@ nav li a:hover {
 /*--------------------------WELCOME BACKGROUND -------------*/
 #main-section {
   /*background-image: url("https://previews.dropbox.com/p/thumb/AAbESyMiCoh1-CM8nA2_MrnDM_Hu7CkFgrgn-m1dTwuG3dXxNGG4hD_MQJkH8SyhJe3qqLIzOViWHDZCa6OnjsLafoswquU41n8V90fMuVHp2lMcQja50hLRbK_9GXiu645alHkl974x97-ueQNKZ-GAYNJX41xCdPeGwSRHJyNQaktBqMP77YjpwXwFQsZQgbFfCoafT8wpbiufoebtkBjl5cGK9-0YUBJpDFItyihC7XushdXC1y3gN0U2inpVlEoMZv4QRot7gVf93_6DCwsmfIUphgWKfewWFyX99x6wazD1MOGawK3UTNw6sooArm0kJI7g7qreM47vaNkfxKGG/p.jpeg?fv_content=true&size_mode=5"); */
-  background-image: url("/images/hd_pic_escalator.jpg");
+  ackground-image: url("/images/hd_pic_escalator.jpg");
   background-attachment: fixed;
   min-height: 500px;
   background-position: center;
@@ -77,8 +77,8 @@ body {
   text-align: center;
   color: black;
   z-index: 0;
-  /*
-  background-image: url("https://previews.dropbox.com/p/thumb/AAavm4kZ1zCReAQTrsZn7rWou5reLxNvpkniaRHK_HuoTKtMayspa3IRGOvvzlPkB4SVRrN-J-bxLVkSXASzqzcIHzWNal7XjCLbuTci7JXACCT2ZC8AlHgjlu7ojwXdTNWdzIMaJ8u-xaT6KqvI6UwoduBUwjYmaZcwrbhvktiwz5uPQyIio2amsfTAAOFX8SYHWcg4jOLXRhkligT1G81-mLXqXp4LXHCvpWf7TjApnu5kV1BlLyw_ByDI3hsrA0F8eT9GNt6iNGeXwbGUhAPE1ustKjxeplEJ6WnqZ4Q02qbnp6A_y_5MhHsphAU4rKz2RhrWp6xkUc-ImxIcD4vm/p.jpeg?fv_content=true&size_mode=5");*/
+  
+  /*background-image: url("https://previews.dropbox.com/p/thumb/AAavm4kZ1zCReAQTrsZn7rWou5reLxNvpkniaRHK_HuoTKtMayspa3IRGOvvzlPkB4SVRrN-J-bxLVkSXASzqzcIHzWNal7XjCLbuTci7JXACCT2ZC8AlHgjlu7ojwXdTNWdzIMaJ8u-xaT6KqvI6UwoduBUwjYmaZcwrbhvktiwz5uPQyIio2amsfTAAOFX8SYHWcg4jOLXRhkligT1G81-mLXqXp4LXHCvpWf7TjApnu5kV1BlLyw_ByDI3hsrA0F8eT9GNt6iNGeXwbGUhAPE1ustKjxeplEJ6WnqZ4Q02qbnp6A_y_5MhHsphAU4rKz2RhrWp6xkUc-ImxIcD4vm/p.jpeg?fv_content=true&size_mode=5");*/
   background-image: url("/images/hd_pic_night_man.jpg");
   background-attachment: fixed;
   min-height: 500px;
@@ -113,7 +113,7 @@ body {
 }
 /*------------------------ SECTION: ABOUT ME --------------------------*/
 #about-me{
-  height: 100vh;
+  min-height: 100vh;
   background: ; 
   display: flex;  
   flex-flow: row nowrap;
@@ -122,20 +122,35 @@ body {
   /*background-image: url(https://previews.dropbox.com/p/thumb/AAbhUsEniDv3yBjSu9HUTQ5zQIPzpBAnd_FsfgEL9DiJ_HwXN7hHPNa3DvsdGGpIEQKhepUM-PhPL-oHjHKZPA6gCAqxKkUCQ7csTVgG6vWqHkaYoCMWKAlWetKB75XI56vrKY8d0yYLGMvW_2m7wXqPVJ96GocMHXcIQyPiBlh7zKW8aq0gPhWbgzf3881ZR0RT3N5eeYzN6dOnjvJ45ED3zY-OEzw2k1pOKDBJ9mhl1Yyg1MU2AHadkkqCNgJmtCSf4QnIEtXON062dXjdD3gBY6TLVSU4ugUf7uDg50BvmxWtjZKuSqkghGCwqi1So1SGMlun0rUgvgqNeKC7bZZO1XNkV6XS8hlu0hs8zsJr6qKLbR0ekYAj9sZGhaZatEp4cDlPY9aPsA-_CF7d5K8i/p.jpeg?fv_content=true&size_mode=5);*/
   background-image: url("/images/about-me-wallpaper.jpg");
   background-attachment: fixed;
-  min-height: 500px;
+  min-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+  padding-bottom: 50px;
 }
 
-#cfg-pic-wrapper{
-  width: 50%;
+#polaroid-container{
   max-width: 500px;
-  padding: 5px 5px 60px 5px;
+   width: 50%; 
+  padding: 5px 5px 5px 5px;
   margin: 20px;
+  margin-top: 100px;
   background: #fafafa;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+#polaroid-text{
+  display: flex;
+  flex-flow: row wrap-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  background: #fafafa;
+  height: 50px;
+  font-size: 1.2vh;
+  font-family: 'Rock Salt', cursive;
+}
+
+#cfg-pic-wrapper{ 
 }
 
 #cfg-pic{
@@ -145,16 +160,19 @@ body {
 
 #about-me-desc{
   width: 50%;
-
+  background: rgba(70, 72, 82, 0.5);
   display: flex;
   flex-flow: column nowrap;
   color: #fafafa;
-  padding: 20px;
+  padding: 0px 20px 20px 20px;
+  margin: 10px; 20px;
 }
 
 #about-me-desc h2{
-  font-size: 2em;
+  font-size: 3vh;
   margin-bottom: 0px;
+  padding-bottom: 0px;
+  background: ;
 }
 
 #about-me-desc p{
@@ -383,6 +401,24 @@ footer {
 @media (max-width: 833px) {
   .input-field {width: 80%;}
   select {width: 90%;}
+  
+   #about-me{
+    flex-flow: column-reverse nowrap;
+  }
+  
+   #about-me-desc{
+    width: 95%;
+    margin: 0px;
+    padding:10px;   
+  }
+  
+   #about-me-desc p{
+    font-size: 2vw;
+  }
+  
+   #polaroid-container{
+    margin-top: 30px;
+  }
 }
 /*---------------------------- MEDIA QUERIES: MOBILE PHONES -------------------------------*/
 @media (max-width: 560px) {
@@ -392,6 +428,27 @@ footer {
   background-attachment: scroll;
   min-height: 50px;
 }
+  
+  #about-me{
+    flex-flow: column-reverse nowrap;
+    /*background-image :url("https://previews.dropbox.com/p/thumb/AAbkn2O-EiTWJUFcxJVPC7U2DTmzov_RnUrZzgqRw1VaaNw_5CL5GTGoDzkcWbC8hvIdwh1b8g932rE9_cgw1uwFImUIM7P4qoAi08FS62nYKqZ0e3z71Wt_fLqfXd2BCZWod8XompuUP2W5wJub-6ou7kmjuIgn8mdxxtKpCmb5sYTWRGURyjp9MZnuMvbJv7iToe-5bwCrn_G4DhQp7Z10GNkpA1vu7IbUiDNevetkN_DEM_WGHmNj0SFkKQkXgBK5iUOnV6M3owa5L6VCVZcE_OzaLQJwfDPokvHIShXMHoSDA3D2jL_uewS338cgonu14rpHqP6rPjMhrXir2nVP/p.jpeg?fv_content=true&size_mode=5");*/
+    background-image: url("/images/about-me-wallpaper-SMALL.jpg");
+    background-attachement: scroll;
+  }
+  
+  #polaroid-container{
+    margin-top: 50px;
+  }
+  #about-me-desc{
+    width: 95%;
+    margin: 0px;
+    padding:10px;  
+  }
+  
+  #about-me-desc p{
+    font-size: 3.5vw;
+  }
+  
   #main-section{
     background-image: none;
     background-color: black;

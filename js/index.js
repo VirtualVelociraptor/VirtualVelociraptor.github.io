@@ -5,7 +5,7 @@ function hover(myLogo) {
 }
 
 function unhover(myLogo) {
-  myLogo.setAttribute('src', '/images/Virtual_Velociraptor_Logo_White.png');
+  myLogo.setAttribute('src', '/images/Virtual_Velociraptor_Logo_Teal.png');
 }
 /*
 function hover(myLogo) {  myLogo.setAttribute('src','https://previews.dropbox.com/p/thumb/AAakhd0mcbhy1YJAtnxe4tnGu2bkdgsyyd1w21kj7doXa18laVVUYMcYnw0rjFqNOR21leB3LceZg8KRpQlhyTtocR3TXf92mntzi8brKDf2KcIOQS2C-3abdH-dPMjE50OB9ZiAOI6LZYGfI6xo6quabZw_gBwBjIHLkZmjruiZzgg6AySAOMSirBwn4Xd7JZTnOdRp8cRH0QfEpfynDYOGjRqmNQapN2cagfSroL5MLmqFCk_NCRoQBx887rcBbTVqSXz-CsFnv9rnDKw31oBCS6Ewqwuixi7M_k77g1ontLbXi1eshJV9bi8RNkIj8PejE6Ln6ra8477Ai381VsYb/p.png?fv_content=true&size_mode=5');

@@ -123,8 +123,8 @@ body {
   align-items:center;
   justify-content: space-around;
   position: relative;
-  background-image: url("https://previews.dropbox.com/p/thumb/AAbhUsEniDv3yBjSu9HUTQ5zQIPzpBAnd_FsfgEL9DiJ_HwXN7hHPNa3DvsdGGpIEQKhepUM-PhPL-oHjHKZPA6gCAqxKkUCQ7csTVgG6vWqHkaYoCMWKAlWetKB75XI56vrKY8d0yYLGMvW_2m7wXqPVJ96GocMHXcIQyPiBlh7zKW8aq0gPhWbgzf3881ZR0RT3N5eeYzN6dOnjvJ45ED3zY-OEzw2k1pOKDBJ9mhl1Yyg1MU2AHadkkqCNgJmtCSf4QnIEtXON062dXjdD3gBY6TLVSU4ugUf7uDg50BvmxWtjZKuSqkghGCwqi1So1SGMlun0rUgvgqNeKC7bZZO1XNkV6XS8hlu0hs8zsJr6qKLbR0ekYAj9sZGhaZatEp4cDlPY9aPsA-_CF7d5K8i/p.jpeg?fv_content=true&size_mode=5");
-  /*background-image: url("/images/about-me-wallpaper.jpg");*/
+  /*background-image: url("https://previews.dropbox.com/p/thumb/AAbhUsEniDv3yBjSu9HUTQ5zQIPzpBAnd_FsfgEL9DiJ_HwXN7hHPNa3DvsdGGpIEQKhepUM-PhPL-oHjHKZPA6gCAqxKkUCQ7csTVgG6vWqHkaYoCMWKAlWetKB75XI56vrKY8d0yYLGMvW_2m7wXqPVJ96GocMHXcIQyPiBlh7zKW8aq0gPhWbgzf3881ZR0RT3N5eeYzN6dOnjvJ45ED3zY-OEzw2k1pOKDBJ9mhl1Yyg1MU2AHadkkqCNgJmtCSf4QnIEtXON062dXjdD3gBY6TLVSU4ugUf7uDg50BvmxWtjZKuSqkghGCwqi1So1SGMlun0rUgvgqNeKC7bZZO1XNkV6XS8hlu0hs8zsJr6qKLbR0ekYAj9sZGhaZatEp4cDlPY9aPsA-_CF7d5K8i/p.jpeg?fv_content=true&size_mode=5");*/
+  background-image: url("/images/about-me-wallpaper.jpg");
   background-attachment: fixed;
   min-height: 500px;
   background-position: center;
@@ -438,6 +438,30 @@ footer {
 
 /*---------------------------- MEDIA QUERIES: SIDEWAYS MOBILE PHONES -------------------------------*/
 @media (max-width: 833px) {
+  header {max-width: 100vw; }
+  
+  nav ul {
+    font-size: 7vw;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background: ;
+    max-width: 100%;
+    align-items: center;   
+    padding: 0px 0px;
+  }
+  
+  nav ul li a {
+    padding: 5px;
+  }
+  
+  #vv-logo {
+    height: 50px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+  }
+  
   .input-field {width: 80%;}
   select {width: 90%;}
   
@@ -459,7 +483,7 @@ footer {
     margin-top: 30px;
   }*/
 }
-/*---------------------------- MEDIA QUERIES: MOBILE PHONES -------------------------------*/
+/*---------------------------- MEDIA QUERIES: UPRIGHT MOBILE PHONES -------------------------------*/
 @media (max-width: 560px) {
   .welcome-bg {
   /*background-image: url("https://previews.dropbox.com/p/thumb/AAavm4kZ1zCReAQTrsZn7rWou5reLxNvpkniaRHK_HuoTKtMayspa3IRGOvvzlPkB4SVRrN-J-bxLVkSXASzqzcIHzWNal7XjCLbuTci7JXACCT2ZC8AlHgjlu7ojwXdTNWdzIMaJ8u-xaT6KqvI6UwoduBUwjYmaZcwrbhvktiwz5uPQyIio2amsfTAAOFX8SYHWcg4jOLXRhkligT1G81-mLXqXp4LXHCvpWf7TjApnu5kV1BlLyw_ByDI3hsrA0F8eT9GNt6iNGeXwbGUhAPE1ustKjxeplEJ6WnqZ4Q02qbnp6A_y_5MhHsphAU4rKz2RhrWp6xkUc-ImxIcD4vm/p.jpeg?fv_content=true&size_mode=5");*/

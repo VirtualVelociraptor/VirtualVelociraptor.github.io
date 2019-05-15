@@ -64,18 +64,18 @@ nav li a:hover {
   background-color: rgba(39, 40, 51, 1);
   height: 100%;
   width: 100%;
-  
+  background: ;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: black;
+  background-color:black;
 }
 
 .welcome-bg {
   height: 100vh;
   padding-top: 0vh;
-  background-color: black;
+  background-color: ;
   position: relative;
   text-align: center;
   color: black;
@@ -117,7 +117,7 @@ body {
 /*------------------------ SECTION: ABOUT ME --------------------------*/
 #about-me{
   height: 100vh;
-  background-color: black; 
+  background-color: ; 
   display: flex;  
   flex-flow: row nowrap;
   align-items:center;
@@ -203,7 +203,7 @@ body {
 .work-header {
   width: 100%;
   height: 190px;
-  padding: 1vh;
+  padding: 0vh;
   color: #fafafa;
   background: rgba(39, 40, 51, 0.7);
   display: flex;
@@ -218,6 +218,7 @@ body {
 .individual-project {
   background: rgba(255, 255, 255, 0.8);
   color: black;
+  
   max-width: 1200px;
   min-width: 300px;
   padding: 20px;
@@ -227,6 +228,7 @@ body {
   margin-bottom: 50px;
   margin-top: 0;
   color: ;
+  
 }
 
 .project-graphic-sect {
@@ -358,7 +360,7 @@ input[type="checkbox"] {
 #submit {
   background-color: darkorange;
   border-radius: 4px;
-  color: white;
+  color: #fafafa;
   font-size: 1em;
   height: 40px;
   width: 96px;
@@ -527,13 +529,17 @@ footer {
     width: 100%;
     height: 100%;
   }
+  
+  .project-graphic-sect{
+    width: 100%;
+  }
 
   .vid-wrapper, .pic-wrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     padding-top: 25px;
     height: 0;
-    width: 100vw;    
+    width: 100%;    
     margin: 0px;
   }
   

@@ -268,16 +268,16 @@
         <div id="description-id">
           <p id="description">Let's collaborate!</p>
         </div>
-        <form id="survey-form" action="/https//:www.virtualvelociraptor.com">
+        <form id="survey-form" method="post" action="contact-form-handler.php">
 
           <div class="rowLayout">
             <div class="labels"><label id="name-label">* Name:</label></div>
-            <div class="rightColumnLayout"><input type="text" id="name" class="input-field" placeholder="Enter your Name" required><br></div>
+            <div class="rightColumnLayout"><input type="text" name="name" id="name" class="input-field" placeholder="Enter your Name" required><br></div>
           </div>
 
           <div class="rowLayout">
             <div class="labels"><label id="email-label">* Email: </label></div>
-            <div class="rightColumnLayout"><input type="email" id="email" class="input-field" placeholder="Enter your Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></div><br>
+            <div class="rightColumnLayout"><input type="email" name="email" id="email" class="input-field" placeholder="Enter your Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></div><br>
           </div>
 
           <div class="rowLayout">
@@ -337,7 +337,7 @@
               <label for="comments">Comments, Questions or Suggestions?</label>
             </div>
             <div class="rightColumnLayout">
-              <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+              <textarea name="comment"  id="comments" class="input-field" style="height:50px;resize:vertical;" placeholder="Enter your comment here..."></textarea>
             </div>
           </div>
 

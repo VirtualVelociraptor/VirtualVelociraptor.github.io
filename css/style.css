@@ -453,7 +453,7 @@ footer {
     padding-top: 0px;      
   }
   
-  .welcome-text {justify-content: flex-end;height: 50%;}
+  .welcome-text {justify-content: flex-end;height: 60%;}
   
   #polaroid-container{margin-top: 30px;}
   
@@ -548,7 +548,7 @@ footer {
     background-image: none;
   }
   
-  .welcome-text {justify-content: center;height: 60%;}
+  .welcome-text {justify-content: center;height: 80%;}
   
   #polaroid-container{
     margin-top: 70px;

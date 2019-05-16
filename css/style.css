@@ -429,7 +429,7 @@ footer {
 @media (max-width: 833px) {
   .welcome-bg {
   /*background-image: url("https://previews.dropbox.com/p/thumb/AAavm4kZ1zCReAQTrsZn7rWou5reLxNvpkniaRHK_HuoTKtMayspa3IRGOvvzlPkB4SVRrN-J-bxLVkSXASzqzcIHzWNal7XjCLbuTci7JXACCT2ZC8AlHgjlu7ojwXdTNWdzIMaJ8u-xaT6KqvI6UwoduBUwjYmaZcwrbhvktiwz5uPQyIio2amsfTAAOFX8SYHWcg4jOLXRhkligT1G81-mLXqXp4LXHCvpWf7TjApnu5kV1BlLyw_ByDI3hsrA0F8eT9GNt6iNGeXwbGUhAPE1ustKjxeplEJ6WnqZ4Q02qbnp6A_y_5MhHsphAU4rKz2RhrWp6xkUc-ImxIcD4vm/p.jpeg?fv_content=true&size_mode=5");*/
-  background-image: url("/images/hd_pic_night_man_SIDEWAYS.jpg");
+  background-image: url("/images/hd_pic_night_man_SIDEWAYS_1.jpg");
   background-attachment: scroll;
     background-size: cover;
   }

@@ -8,8 +8,8 @@ header {
   justify-content: space-between;
   z-index: 1;
   top: 0;
-  /*left: 0;
-  right: 0;*/
+  left: 0;
+  right: 0;
   width: 100%;
   background-color: rgba(39, 40, 51, 0.8);
 }

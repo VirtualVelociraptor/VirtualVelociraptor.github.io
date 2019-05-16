@@ -97,22 +97,23 @@ body {
 }
 
 .welcome-text {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #fafafa;
 }
 
 .welcome-text h1 {
   font-size: 5em;
-  font-family: "Titillium Web", sans-serif;
-  color: #fafafa;
+  font-family: "Titillium Web", sans-serif; 
+  width: 80%; 
 }
 
 .welcome-text h2 {
-  color: #fafafa;
-  text-align: center;
   font-size: 2em;
+  width: 80%;
 }
 /*------------------------ SECTION: ABOUT ME --------------------------*/
 #about-me{
@@ -402,7 +403,7 @@ footer {
   right: 0px;
 }
 
-/*---------------------------- MEDIA QUERIES: TABLETS -------------------------------*/
+/*---------------------------- MEDIA QUERIES: TABLETS 1200px-------------------------------*/
 
 @media (max-width: 1200px) {
   .contact-me p {font-size: 20px;}
@@ -427,11 +428,11 @@ footer {
   
 }
 
-/*---------------------------- MEDIA QUERIES: SIDEWAYS MOBILE PHONES -------------------------------*/
+/*---------------------------- MEDIA QUERIES: SIDEWAYS MOBILE PHONES 833px-------------------------------*/
 @media (max-width: 833px) {
   .welcome-bg {
   /*background-image: url("https://previews.dropbox.com/p/thumb/AAavm4kZ1zCReAQTrsZn7rWou5reLxNvpkniaRHK_HuoTKtMayspa3IRGOvvzlPkB4SVRrN-J-bxLVkSXASzqzcIHzWNal7XjCLbuTci7JXACCT2ZC8AlHgjlu7ojwXdTNWdzIMaJ8u-xaT6KqvI6UwoduBUwjYmaZcwrbhvktiwz5uPQyIio2amsfTAAOFX8SYHWcg4jOLXRhkligT1G81-mLXqXp4LXHCvpWf7TjApnu5kV1BlLyw_ByDI3hsrA0F8eT9GNt6iNGeXwbGUhAPE1ustKjxeplEJ6WnqZ4Q02qbnp6A_y_5MhHsphAU4rKz2RhrWp6xkUc-ImxIcD4vm/p.jpeg?fv_content=true&size_mode=5");*/
-  /*background-image: url("/images/hd_pic_night_man.jpg");*/
+  background-image: url("/images/hd_pic_night_man_SIDEWAYS.jpg");
   background-attachment: scroll;
     background-size: 100% 100%;
   }
@@ -451,6 +452,8 @@ footer {
     padding:10px;  
     padding-top: 0px;      
   }
+  
+  .welcome-text {justify-content: flex-end;height: 50%;}
   
   #polaroid-container{margin-top: 30px;}
   
@@ -511,7 +514,7 @@ footer {
     margin-top: 30px;
   }*/
 }
-/*---------------------------- MEDIA QUERIES: UPRIGHT MOBILE PHONES -------------------------------*/
+/*---------------------------- MEDIA QUERIES: UPRIGHT MOBILE PHONES 560px -------------------------------*/
 @media (max-width: 560px) {
   .welcome-bg {
   /*background-image: url("https://previews.dropbox.com/p/thumb/AAavm4kZ1zCReAQTrsZn7rWou5reLxNvpkniaRHK_HuoTKtMayspa3IRGOvvzlPkB4SVRrN-J-bxLVkSXASzqzcIHzWNal7XjCLbuTci7JXACCT2ZC8AlHgjlu7ojwXdTNWdzIMaJ8u-xaT6KqvI6UwoduBUwjYmaZcwrbhvktiwz5uPQyIio2amsfTAAOFX8SYHWcg4jOLXRhkligT1G81-mLXqXp4LXHCvpWf7TjApnu5kV1BlLyw_ByDI3hsrA0F8eT9GNt6iNGeXwbGUhAPE1ustKjxeplEJ6WnqZ4Q02qbnp6A_y_5MhHsphAU4rKz2RhrWp6xkUc-ImxIcD4vm/p.jpeg?fv_content=true&size_mode=5");*/
@@ -544,6 +547,8 @@ footer {
     
     background-image: none;
   }
+  
+  .welcome-text {justify-content: center;height: 100%;}
   
   #polaroid-container{
     margin-top: 70px;

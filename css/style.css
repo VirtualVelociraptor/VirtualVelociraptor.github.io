@@ -8,9 +8,9 @@ header {
   justify-content: space-between;
   z-index: 1;
   top: 0;
-  left: 0;
-  right: 0;
-  width: 100vw;
+  /*left: 0;
+  right: 0;*/
+  width: 100%;
   background-color: rgba(39, 40, 51, 0.8);
 }
 
@@ -68,17 +68,21 @@ nav li a:hover {
 }
 
 body {
+  position: relative;
   font-family: "Montserrat", sans-serif;
   background-color:black;
+  width: 100%;
+  margin: 0;
 }
 
 .welcome-bg {
   height: 100vh;
+  width: 100%;
   padding-top: 0vh;
   background-color: ;
   position: relative;
   text-align: center;
-  color: black;
+  color: ;
   z-index: 0;
   
   /*background-image: url("https://previews.dropbox.com/p/thumb/AAavm4kZ1zCReAQTrsZn7rWou5reLxNvpkniaRHK_HuoTKtMayspa3IRGOvvzlPkB4SVRrN-J-bxLVkSXASzqzcIHzWNal7XjCLbuTci7JXACCT2ZC8AlHgjlu7ojwXdTNWdzIMaJ8u-xaT6KqvI6UwoduBUwjYmaZcwrbhvktiwz5uPQyIio2amsfTAAOFX8SYHWcg4jOLXRhkligT1G81-mLXqXp4LXHCvpWf7TjApnu5kV1BlLyw_ByDI3hsrA0F8eT9GNt6iNGeXwbGUhAPE1ustKjxeplEJ6WnqZ4Q02qbnp6A_y_5MhHsphAU4rKz2RhrWp6xkUc-ImxIcD4vm/p.jpeg?fv_content=true&size_mode=5");*/
@@ -88,12 +92,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.wallpaper {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
 }
 
 .welcome-text {
@@ -111,14 +109,13 @@ body {
   width: 80%; 
 }
 
-.welcome-text h2 {
-  font-size: 2em;
-  width: 80%;
-}
+.welcome-text h2 {font-size: 2em; width: 80%;}
+
 /*------------------------ SECTION: ABOUT ME --------------------------*/
 #about-me{
   height: 100vh;
-  background-color: ; 
+  width: 100%;
+  background-color:  ; 
   display: flex;  
   flex-flow: row nowrap;
   align-items:center;
@@ -243,7 +240,7 @@ body {
   width: 560px;
   height: 315px;
   margin: 10px;
-  border-width: 2px;
+  border-width: 0.5px;
   border-style: solid;
   border-color: black;
 }
@@ -260,7 +257,7 @@ body {
   justify-content: center;
   align-items: center;
   
-  border-width: 2px;
+  border-width: 0.5px;
   border-style: solid;
   border-color: black;
 }
@@ -624,7 +621,7 @@ footer {
     padding-top: 25px;
     height: 0;
     width: 100%;    
-    margin: 0px;
+    margin: 0px 0px 5px 0px;
   }
   
   .vid-wrapper iframe {

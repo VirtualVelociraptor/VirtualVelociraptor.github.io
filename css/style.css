@@ -177,9 +177,14 @@ body {
   background: ;
 }
 
-#about-me-desc p{
+#about-me-desc p, {
   font-size: 1.4em;
   margin-bottom: 0px;
+}
+
+#about-me-desc a{
+  /*text-decoration: none;*/
+  color: #fafafa;
 }
 
 
